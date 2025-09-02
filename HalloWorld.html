@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+   <title></title>
+    
+</head>
+<body>
+    <h1 id="sum"></h1>
+    <script>
+// let price1 = 5;
+// const price2 = 6;
+
+// price1=7;
+// const total = price1 + price2;
+//function 
+// function f1(){
+//     let fahrenheit=67;
+//     let c=(5/9) * (fahrenheit-32);
+//     return c;
+// }
+// //function call
+let myfunction=()=>function f1(){
+    let fahrenheit=67;
+let c=(5/9) * (fahrenheit-32);
+return c;
+
+}
+let x=myfunction()
+document.getElementById("sum").innerHTML =x();
+</script>
+</body>
+</html>
